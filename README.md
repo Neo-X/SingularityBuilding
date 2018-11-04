@@ -51,6 +51,10 @@ export TERRAINRL_PATH=/opt/TerrainRL
 sudo singularity build new-squashfs deepcrowds
 sudo singularity build --sandbox ubuntu_learning ubuntu_learning.simg
 ```
+- Convert "sandbox" into writable image
+```
+sudo singularity build --writable ubuntu_learning.img ubuntu_learning
+```
 
 - Run interactive shell in writable container
 ```
