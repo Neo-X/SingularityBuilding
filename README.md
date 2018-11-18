@@ -54,6 +54,7 @@ sudo singularity build --sandbox ubuntu_learning ubuntu_learning.simg
 - Convert "sandbox" into writable image
 ```
 sudo singularity build --writable ubuntu_learning.img ubuntu_learning
+sudo singularity build --writable deepcrowds.img deepcrowds
 ```
 
 - Run interactive shell in writable container
